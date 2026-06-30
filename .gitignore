@@ -1,0 +1,7 @@
+*.drawio.bkp
+*.iml
+.cache
+.idea/
+.venv/
+__pycache__/
+site/
