@@ -27,7 +27,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2026063000;                   // The current plugin version (Date: YYYYMMDDXX).
+$plugin->version   = 2026063001;                   // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2026041000;                   // Requires this Moodle version.
 $plugin->component = 'repository_uploadoptimized'; // Full name of the plugin (used for diagnostics)
 $plugin->supported = [405, 502]; // X meta-supported-moodle{4.5 - 5.2} meta-supported-php{8.1 - 8.4}.

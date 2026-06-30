@@ -39,3 +39,4 @@ $string['upload_error_folders_not_supported'] = 'Compress the folder into a ZIP 
 $string['upload_error_folders_not_supported_title'] = 'This folder can\'t be uploaded';
 $string['upload_error_invalid_file'] = 'The file \'{$a}\' is either empty or a folder. To upload folders zip them first.';
 $string['privacy:metadata'] = 'The upload and optimize a file repository plugin does not store or transmit any personal data.';
+

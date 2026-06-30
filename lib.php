@@ -449,4 +449,26 @@ class repository_uploadoptimized extends repository {
     public function contains_private_data() {
         return false;
     }
+
+    /**
+     * Returns a list of internal identifiers for all instance specific options
+     *
+     * @return string[] List of internal identifiers for instnace specific options
+     */
+    public static function get_instance_option_names() {
+        return ['image_maxlonside_px'];
+    }
+
+    /**
+     * Populates the Moodle form with instance specific settings
+     *
+     * @param $mform Moodle form to populate
+     * @return void
+     */
+    public static function instance_config_form($mform) {
+        // TODO (MDL-0): Implement this ;)
+        // $mform->addElement('text', 'webdav_port', get_string('webdav_port', 'repository_webdav'), array('size' => '40'));
+        // $mform->setType('webdav_port', PARAM_INT);
+    }
+
 }
